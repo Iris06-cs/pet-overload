@@ -1,5 +1,5 @@
 import datetime
-from typing import Any, Union
+from typing import Any, Union, Dict
 from werkzeug import Response
 from .db import db, environment, SCHEMA, add_prefix_for_prod
 from .utils import ValidationException, NotFoundException, ForbiddenException
